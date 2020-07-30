@@ -44,7 +44,7 @@ app.use(function (req, res, next) {
 
 app.use(
   cors({
-    origin: 'https://silly-chandrasekhar-d6e392.netlify.app',
+    origin: 'https://imgprocessor.netlify.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true, // enable set cookie
     exposedHeaders:['Content-Disposition']
