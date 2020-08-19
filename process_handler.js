@@ -71,6 +71,7 @@ router.post('/process', (req, res) => {
       let final_path;
       // compress
 
+      
       if (compress > 0) {
         let value = await compress_sharp(
           requested_file_path,
